@@ -1,0 +1,3 @@
+[submodule "oboco-frontend"]
+	path = oboco-frontend
+	url = https://gitlab.com/jeeto/oboco-frontend.git
