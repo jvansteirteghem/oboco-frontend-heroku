@@ -11,6 +11,9 @@
 
 - heroku
 	- create app oboco-frontend
+		- heroku login
+		- heroku config:set BASE_URL=https://oboco-backend.herokuapp.com --app oboco-frontend
+		- heroku config --app oboco-frontend
 
 ## build
 

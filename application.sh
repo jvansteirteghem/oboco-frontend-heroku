@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# env
-
-BASE_URL='https://oboco-backend.herokuapp.com'
-
 # replace
 
 sed -i 's,listen .*;,listen '"${PORT}"';,' /etc/nginx/conf.d/default.conf
