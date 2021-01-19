@@ -24,7 +24,7 @@ RUN chown -R 1001 /usr/share/nginx/html/
 COPY application.sh /usr/local/bin/
 RUN chmod 777 /usr/local/bin/application.sh
 
-EXPOSE 8080
+EXPOSE 9080
 USER 1001
 
-CMD ["bash","/usr/local/bin/application.sh"]
+CMD ["bash", "/usr/local/bin/application.sh"]
