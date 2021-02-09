@@ -47,3 +47,7 @@
 	- docker-compose up
 - test
 	- http://127.0.0.1:8000/
+
+## license
+
+mit license
